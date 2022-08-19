@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Corinthia", cursive;
+  font-family: "Poppins", sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  height: 50px;
+  width: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(202, 202, 202, 0.28) 0%,
+    rgba(217, 217, 217, 0.1) 100%
+  );
+  backdrop-filter: blur(53px);
+}
+.nav-list {
+  padding: 10px;
+}
+.nav-list a {
+  mix-blend-mode: difference;
+  filter: invert(0.7) grayscale(1) contrast(1);
+  text-decoration: none;
+  float: right;
+  margin-right: 15px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 36px;
+  color: #e1e8eb;
+}
+
+/* NAVBAR */
+
+/* BANNER */
+.pengantin {
+  display: flex;
+  justify-content: center;
+  left: 40%;
+  top: 50%;
+  position: absolute;
+}
+.banner {
+  width: 100%;
+  height: 1080px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(asset/1.png);
+}
+.pengantin p {
+  font-family: "Corinthia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  color: #fff9f9;
+}
+.pria p {
+  position: relative;
+  bottom: 100px;
+}
+.wanita p {
+  position: relative;
+  top: 100px;
+}
+
+/* BANNER */
+
+/* STORY */
+
+.judul {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  align-items: center;
+  flex-direction: column;
+}
+.judul h1 {
+  font-family: "Corinthia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+}
+.judul p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 275;
+  font-size: 40px;
+  line-height: 72px;
+
+  color: #090606;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.garis {
+  border: 1px solid #d9d9d9;
+  margin: 0px 70px;
+}
+.card .kiri {
+  display: flex;
+  flex-direction: column;
+}
+.konten {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.konten p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 48px;
+  position: relative;
+  bottom: 50px;
+  color: #e1e8eb;
+  margin-bottom: -40px;
+}
+.konten1,
+.konten3 {
+  margin-bottom: 140px;
+}
+.card .kanan {
+  display: flex;
+  flex-direction: column;
+}
+.kanan {
+  margin-top: 150px;
+}
+
+.card img {
+  filter: drop-shadow(10.6446px 5.32231px 39.9173px rgba(0, 0, 0, 0.25));
+}
+.tanggal-story {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+.tanggal-story p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 275;
+}
+/* STORY */
+
+/* THE DATE */
+.map {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.map p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 275;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 15px;
+  color: #000000;
+  width: 836px;
+  height: 211px;
+}
+.ucapan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kartu {
+  width: 900px;
+  height: 236px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+  background: linear-gradient(
+    93.68deg,
+    rgba(217, 217, 217, 0.3) -2.82%,
+    rgba(217, 217, 217, 0.1) -2.81%,
+    rgba(217, 217, 217, 0.13) 100%
+  );
+  box-shadow: 4px 4px 6px -4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(8px);
+  border-radius: 9px;
+}
+.kartu p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 275;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+}
+.asset1 {
+  position: absolute;
+  right: 0px;
+  bottom: -2900px;
+}
+.asset2 {
+  position: absolute;
+  left: 0px;
+  z-index: -1;
+  bottom: -3200px;
+}
+/* THE DATE */
+
+/* UCAPAN */
+
+.ucapan h1 {
+  margin-top: 80px;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 48px;
+  color: #353b41;
+}
+
+.kata {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+input {
+  margin-top: 70px;
+  width: 500px;
+  border: none;
+  font-weight: 300;
+  font-size: 20px;
+  border-bottom: 1px solid #353b41;
+}
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  /* font-weight: 400; */
+}
+
+.btn {
+  width: 300px;
+  margin-top: 50px;
+  height: 74px;
+  background: #8ece78;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.09));
+  align-items: center;
+}
+.btn a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #eff4f7;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #8fc67c;
+}
+
+.btn:active {
+  background-color: #709962;
+}
+/* UCAPAN */
+
+footer {
+  height: 49px;
+  background: #353b41;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300px;
+}
+
+footer p {
+  color: #d9d9d9;
+}
